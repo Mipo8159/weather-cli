@@ -1,0 +1,34 @@
+{
+  "name": "mip-weather-cli",
+  "version": "1.0.0",
+  "description": "Weather api",
+  "main": "weather.js",
+  "type": "module",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Giga Kvachakhia",
+  "license": "ISC",
+  "homepage": "https://github.com/mipo8159",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mipo8159"
+  },
+  "bugs": {
+    "url": "https://github.com/mipo8159",
+    "email": "stalkerglac@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1"
+  }
+}
